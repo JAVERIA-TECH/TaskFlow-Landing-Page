@@ -56,11 +56,6 @@ TaskFlow-Landing-Page/
 
 ## Getting Started
 
-### Prerequisites
-
-- [Node.js](https://nodejs.org) (LTS version)
-- npm (comes with Node.js)
-
 ### Installation
 
 3. Install dependencies
