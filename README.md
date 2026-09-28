@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# TaskFlow Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive landing page for **TaskFlow**, a task management app, built with React.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+TaskFlow is a productivity app that helps individuals and teams organize tasks, track progress and stay on schedule. This project is the marketing landing page for the app. It introduces the product, highlights its key features, shows pricing plans and displays customer reviews, all in one clean, easy-to-navigate page.
 
-### `npm start`
+The goal of this project was to practice building a multi-section website with reusable React components and a responsive layout.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Clean and modern user interface
+- Fully responsive design for desktop, tablet and mobile
+- Reusable, component-based React structure
+- **Header** with navigation
+- **Features** section highlighting what the app offers
+- **Pricing** section with plans
+- **Reviews** section with customer testimonials
+- **Footer** with useful links and information
 
-### `npm test`
+## Tools and Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Tool | Purpose |
+|------|---------|
+| React | Building the UI with components |
+| JavaScript (ES6+) | Application logic |
+| HTML5 | Page structure |
+| CSS3 | Styling and responsive layout |
+| Create React App | Project setup and build tooling |
+| Node.js and npm | Package management and dev server |
+| Git and GitHub | Version control and hosting the code |
 
-### `npm run build`
+## Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+TaskFlow-Landing-Page/
+├── public/
+│   ├── index.html
+│   ├── manifest.json
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Features.js
+│   │   ├── Pricing.js
+│   │   ├── Reviews.js
+│   │   └── Footer.js
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
+├── package.json
+└── README.md
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+- [Node.js](https://nodejs.org) (LTS version)
+- npm (comes with Node.js)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install dependencies
+```bash
+   npm install
+```
+4. Start the development server
+```bash
+   npm start
+```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Author
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Javeria**  
+GitHub: [JAVERIA-TECH](https://github.com/JAVERIA-TECH)
